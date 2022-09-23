@@ -27,5 +27,5 @@ steps:
     logLevel: DEBUG
     defaultCollectionName: 'Discovered APIs'
   env:
-    BUILD_REPOSITORY_URI: 'Myproject-testing'
-    BUILD_SOURCEBRANCH: 'ref/heads/12345'
+    BUILD_REPOSITORY_URI: '$(BUILD_REPOSITORY_URI)'
+    BUILD_SOURCEBRANCH: '$(BUILD_SOURCEBRANCH)'
