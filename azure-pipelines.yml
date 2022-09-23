@@ -24,7 +24,7 @@ steps:
     apiToken: '$(42C_API_TOKEN)'
     minScore: '70'
     platformUrl: '$(platformUrl)'
-    logLevel: INFO
+    logLevel: DEBUG
     defaultCollectionName: 'Discovered APIs'
   env:
     BUILD_REPOSITORY_URI: 'Myproject-testing'
