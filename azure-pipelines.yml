@@ -28,4 +28,4 @@ steps:
     defaultCollectionName: 'Discovered APIs'
   env:
     BUILD_REPOSITORY_URI: '$(BUILD_REPOSITORY_URI)'
-    BUILD_SOURCEBRANCH: 'refs/heads/12345'
+    BUILD_SOURCEBRANCH: '$(BUILD_SOURCEBRANCH)'
